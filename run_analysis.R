@@ -3,12 +3,12 @@
 ###################### Downloading data #######################
 ###############################################################
 
-library(data.table)
-fileurl = 'https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip'
-if (!file.exists('./UCI_HAR_Dataset_Noman.zip')){
-  download.file(fileurl,'./UCI_HAR_Dataset_Noman.zip', mode = 'wb')
-  unzip("UCI_HAR_Dataset_Noman.zip", exdir = getwd())
-}
+# library(data.table)
+# fileurl = 'https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip'
+# if (!file.exists('./UCI_HAR_Dataset_Noman.zip')){
+  # download.file(fileurl,'./UCI_HAR_Dataset_Noman.zip', mode = 'wb')
+  # unzip("UCI_HAR_Dataset_Noman.zip", exdir = getwd())
+# }
 
 #############################################################
 ######### Reading and converting data #######################
